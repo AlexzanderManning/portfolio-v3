@@ -1,0 +1,268 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> cobimr@protonmail.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Put here your site title -->
+    <title>Alexzander Manning | Developer</title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+    <!-- Remove this script once you setup your custom portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is <span class="text-color-main">Alexzander Manning.</span>
+          <br />
+          I build things for the web.
+        </h1>
+        <p class="hero-about">I'm a software engineer based in Atlanta, GA specializing in building (and occasionally designing) exceptional, high-quality websites and applications.</p>
+        <div class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#about">Learn more</a>
+          <a class="cta-btn cta-btn--hero" href="mailto:dmanning4@student.gsu.edu">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">
+          About me
+        </h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/profile.png"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                Hello! I'm Alexzander, a software engineer based in Atlanta, GA who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.
+              </p>
+              <p class="about-wrapper__info-text">
+                Here are a few technologies I've been working with recently:
+              </p>
+              <div class="about-wrapper__info-text ul-container">
+                <ul class="ul-fix">
+                  <li>Javascript (ES6+)</li>
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>Gatsby.Js</li>
+                </ul class="ul-fix">
+
+                <ul class="ul-fix">
+                  <li>HTML</li>
+                  <li>CSS / SASS</li>
+                  <li>Bootstrap</li>
+                  <li>jQuery</li>
+                </ul>
+
+              </div>
+              <span class="d-flex mt-3">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="/resume.pdf">
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">
+            Projects
+          </h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Drip Clothing</h3>
+                <div>
+                  <p class="mb-4">
+                    A fully responsive Ecommerce store built with React, React-Router, Redux, Redux-Persist and handles payment proccessing with the Stripe API.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://dripclothing.netlify.com/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/AlexzanderManning/clothing-ecommerce">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://dripclothing.netlify.com/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/dripclothing.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Pastoria</h3>
+                <div>
+                  <p class="mb-4">
+                    A fully responsive restaraunt website built with Gatsby.js, React and Sass. Check out the menu! The food here is tasty!
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://pastoria.netlify.com/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/AlexzanderManning/Restaurant-Site">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://pastoria.netlify.com/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/pastoria.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Linkify</h3>
+                <div>
+                  <p class="mb-4">
+                    A fully responsive link shortening SaaS built with HTML, CSS, JS, Bootstrap. Give it a try!
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://linkify.netlify.com/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/AlexzanderManning/Linkifiy">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://linkify.netlify.com/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/linkify.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Get In Touch
+        </h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">
+             I am currently open for opportunities, my inbox is always open. Whether for a potential job, project or just to say hi, I'll try my best to answer your email as soon as possible!
+          </p>
+          <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:dmanning4@student.gsu.edu"
+            >Email Me</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a href="mailto:dmanning4@student.gsu.edu" target="_blank">
+            <i class="fa fa-envelope"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/alexzander-manning/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/AlexzanderManning" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- If you give me some credit, will be huge for me :) -->
+        <!-- <p class="footer__text">
+          © 2019 - Template developed by <a href="https://github.com/covidev" target="_blank">Jacobo Martínez</a>
+          </a>
+        </p> -->
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
