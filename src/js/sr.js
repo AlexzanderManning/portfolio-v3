@@ -21,6 +21,13 @@ export default function() {
     delay: 500,
     origin: window.innerWidth > 768 ? 'left' : 'bottom'
   });
+
+  ScrollReveal().reveal('.hero-about', {
+    ...defaultProps,
+    delay: 1000,
+    origin: window.innerWidth > 768 ? 'left' : 'bottom'
+  });
+
   ScrollReveal().reveal('.hero-cta', {
     ...defaultProps,
     delay: 1000,
